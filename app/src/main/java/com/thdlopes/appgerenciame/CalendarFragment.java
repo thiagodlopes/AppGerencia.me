@@ -21,7 +21,7 @@ public class CalendarFragment extends Fragment {
     private String pattern = "dd/MM/yyyy";
     private List<EventDay> events;
     private Calendar calendar;
-    
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
