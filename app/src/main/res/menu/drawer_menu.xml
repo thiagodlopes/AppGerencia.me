@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendário" />
+        <item
+            android:id="@+id/nav_finance_list"
+            android:icon="@drawable/ic_finance_list"
+            android:title="Lista de Finanças" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_new_category"
+            android:title="Cadastrar Categoria" />
+    </group>
+</menu>
