@@ -1,23 +1,25 @@
 package com.thdlopes.appgerenciame;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CalendarView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.applandeo.materialcalendarview.CalendarView;
 import com.applandeo.materialcalendarview.EventDay;
+import com.applandeo.materialcalendarview.listeners.OnDayClickListener;
 
 import java.util.Calendar;
 import java.util.List;
 
-public class CalendarFragment extends Fragment {
+public class CalendarFragment extends Fragment{
 
-    private CalendarView calendarView;
+    private com.applandeo.materialcalendarview.CalendarView calendarView;
     private String pattern = "dd/MM/yyyy";
     private List<EventDay> events;
     private Calendar calendar;
@@ -25,6 +27,7 @@ public class CalendarFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_calendar, container, false);
+        View view = inflater.inflate(R.layout.fragment_calendar, container, false);
+        return view;
     }
 }
