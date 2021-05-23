@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="ead_blue">#3366CC</color>
     <color name="orange">#ed7d31</color>
-    <color name="titleBlack">#000000</color>
+    <color name="backgroundBlack">#303030</color>
+    <color name="light_grey">#D5D4D4</color>
 </resources>
